@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2693D5282CD3FE27007B119D /* Espresso in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D5272CD3FE27007B119D /* Espresso */; };
+		2693D52A2CD3FE27007B119D /* EspressoUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D5292CD3FE27007B119D /* EspressoUI */; };
+		2693D52D2CD3FE4F007B119D /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D52C2CD3FE4F007B119D /* Nuke */; };
+		2693D52F2CD3FE4F007B119D /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D52E2CD3FE4F007B119D /* NukeExtensions */; };
+		2693D5312CD3FE4F007B119D /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D5302CD3FE4F007B119D /* NukeUI */; };
+		2693D5342CD3FE6B007B119D /* Spider in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D5332CD3FE6B007B119D /* Spider */; };
+		2693D5372CD3FE95007B119D /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D5362CD3FE95007B119D /* Swinject */; };
+		2693D57D2CD4367F007B119D /* LazyPager in Frameworks */ = {isa = PBXBuildFile; productRef = 2693D57C2CD4367F007B119D /* LazyPager */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2693D5052CD3FD3C007B119D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2693D4EC2CD3FD3A007B119D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2693D4F32CD3FD3A007B119D;
+			remoteInfo = LucraPhotos;
+		};
+		2693D50F2CD3FD3C007B119D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2693D4EC2CD3FD3A007B119D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2693D4F32CD3FD3A007B119D;
+			remoteInfo = LucraPhotos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2693D4F42CD3FD3A007B119D /* LucraPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucraPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2693D5042CD3FD3C007B119D /* LucraPhotosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucraPhotosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2693D50E2CD3FD3C007B119D /* LucraPhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LucraPhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2693D57A2CD43040007B119D /* Exceptions for "LucraPhotos" folder in "LucraPhotos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = 2693D4F32CD3FD3A007B119D /* LucraPhotos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2693D4F62CD3FD3A007B119D /* LucraPhotos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2693D57A2CD43040007B119D /* Exceptions for "LucraPhotos" folder in "LucraPhotos" target */,
+			);
+			path = LucraPhotos;
+			sourceTree = "<group>";
+		};
+		2693D5072CD3FD3C007B119D /* LucraPhotosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LucraPhotosTests;
+			sourceTree = "<group>";
+		};
+		2693D5112CD3FD3C007B119D /* LucraPhotosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LucraPhotosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2693D4F12CD3FD3A007B119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2693D57D2CD4367F007B119D /* LazyPager in Frameworks */,
+				2693D5312CD3FE4F007B119D /* NukeUI in Frameworks */,
+				2693D52D2CD3FE4F007B119D /* Nuke in Frameworks */,
+				2693D5372CD3FE95007B119D /* Swinject in Frameworks */,
+				2693D52F2CD3FE4F007B119D /* NukeExtensions in Frameworks */,
+				2693D52A2CD3FE27007B119D /* EspressoUI in Frameworks */,
+				2693D5282CD3FE27007B119D /* Espresso in Frameworks */,
+				2693D5342CD3FE6B007B119D /* Spider in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D5012CD3FD3C007B119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D50B2CD3FD3C007B119D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2693D4EB2CD3FD3A007B119D = {
+			isa = PBXGroup;
+			children = (
+				2693D4F62CD3FD3A007B119D /* LucraPhotos */,
+				2693D5072CD3FD3C007B119D /* LucraPhotosTests */,
+				2693D5112CD3FD3C007B119D /* LucraPhotosUITests */,
+				2693D4F52CD3FD3A007B119D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2693D4F52CD3FD3A007B119D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2693D4F42CD3FD3A007B119D /* LucraPhotos.app */,
+				2693D5042CD3FD3C007B119D /* LucraPhotosTests.xctest */,
+				2693D50E2CD3FD3C007B119D /* LucraPhotosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2693D4F32CD3FD3A007B119D /* LucraPhotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2693D5182CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotos" */;
+			buildPhases = (
+				2693D4F02CD3FD3A007B119D /* Sources */,
+				2693D4F12CD3FD3A007B119D /* Frameworks */,
+				2693D4F22CD3FD3A007B119D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2693D4F62CD3FD3A007B119D /* LucraPhotos */,
+			);
+			name = LucraPhotos;
+			packageProductDependencies = (
+				2693D5272CD3FE27007B119D /* Espresso */,
+				2693D5292CD3FE27007B119D /* EspressoUI */,
+				2693D52C2CD3FE4F007B119D /* Nuke */,
+				2693D52E2CD3FE4F007B119D /* NukeExtensions */,
+				2693D5302CD3FE4F007B119D /* NukeUI */,
+				2693D5332CD3FE6B007B119D /* Spider */,
+				2693D5362CD3FE95007B119D /* Swinject */,
+				2693D57C2CD4367F007B119D /* LazyPager */,
+			);
+			productName = LucraPhotos;
+			productReference = 2693D4F42CD3FD3A007B119D /* LucraPhotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2693D5032CD3FD3C007B119D /* LucraPhotosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2693D51B2CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotosTests" */;
+			buildPhases = (
+				2693D5002CD3FD3C007B119D /* Sources */,
+				2693D5012CD3FD3C007B119D /* Frameworks */,
+				2693D5022CD3FD3C007B119D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2693D5062CD3FD3C007B119D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2693D5072CD3FD3C007B119D /* LucraPhotosTests */,
+			);
+			name = LucraPhotosTests;
+			packageProductDependencies = (
+			);
+			productName = LucraPhotosTests;
+			productReference = 2693D5042CD3FD3C007B119D /* LucraPhotosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2693D50D2CD3FD3C007B119D /* LucraPhotosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2693D51E2CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotosUITests" */;
+			buildPhases = (
+				2693D50A2CD3FD3C007B119D /* Sources */,
+				2693D50B2CD3FD3C007B119D /* Frameworks */,
+				2693D50C2CD3FD3C007B119D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2693D5102CD3FD3C007B119D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2693D5112CD3FD3C007B119D /* LucraPhotosUITests */,
+			);
+			name = LucraPhotosUITests;
+			packageProductDependencies = (
+			);
+			productName = LucraPhotosUITests;
+			productReference = 2693D50E2CD3FD3C007B119D /* LucraPhotosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2693D4EC2CD3FD3A007B119D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					2693D4F32CD3FD3A007B119D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					2693D5032CD3FD3C007B119D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2693D4F32CD3FD3A007B119D;
+					};
+					2693D50D2CD3FD3C007B119D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 2693D4F32CD3FD3A007B119D;
+					};
+				};
+			};
+			buildConfigurationList = 2693D4EF2CD3FD3A007B119D /* Build configuration list for PBXProject "LucraPhotos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2693D4EB2CD3FD3A007B119D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2693D5262CD3FE27007B119D /* XCRemoteSwiftPackageReference "Espresso" */,
+				2693D52B2CD3FE4F007B119D /* XCRemoteSwiftPackageReference "Nuke" */,
+				2693D5322CD3FE6B007B119D /* XCRemoteSwiftPackageReference "Spider" */,
+				2693D5352CD3FE95007B119D /* XCRemoteSwiftPackageReference "Swinject" */,
+				2693D57B2CD4367F007B119D /* XCRemoteSwiftPackageReference "LazyPager" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2693D4F52CD3FD3A007B119D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2693D4F32CD3FD3A007B119D /* LucraPhotos */,
+				2693D5032CD3FD3C007B119D /* LucraPhotosTests */,
+				2693D50D2CD3FD3C007B119D /* LucraPhotosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2693D4F22CD3FD3A007B119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D5022CD3FD3C007B119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D50C2CD3FD3C007B119D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2693D4F02CD3FD3A007B119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D5002CD3FD3C007B119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2693D50A2CD3FD3C007B119D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2693D5062CD3FD3C007B119D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2693D4F32CD3FD3A007B119D /* LucraPhotos */;
+			targetProxy = 2693D5052CD3FD3C007B119D /* PBXContainerItemProxy */;
+		};
+		2693D5102CD3FD3C007B119D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2693D4F32CD3FD3A007B119D /* LucraPhotos */;
+			targetProxy = 2693D50F2CD3FD3C007B119D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2693D5162CD3FD3C007B119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2693D5172CD3FD3C007B119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2693D5192CD3FD3C007B119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LucraPhotos/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LucraPhotos/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2693D51A2CD3FD3C007B119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LucraPhotos/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LucraPhotos/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2693D51C2CD3FD3C007B119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LucraPhotos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LucraPhotos";
+			};
+			name = Debug;
+		};
+		2693D51D2CD3FD3C007B119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LucraPhotos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LucraPhotos";
+			};
+			name = Release;
+		};
+		2693D51F2CD3FD3C007B119D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LucraPhotos;
+			};
+			name = Debug;
+		};
+		2693D5202CD3FD3C007B119D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KKSYLRXR4A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitchtreece.LucraPhotosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LucraPhotos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2693D4EF2CD3FD3A007B119D /* Build configuration list for PBXProject "LucraPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693D5162CD3FD3C007B119D /* Debug */,
+				2693D5172CD3FD3C007B119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2693D5182CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693D5192CD3FD3C007B119D /* Debug */,
+				2693D51A2CD3FD3C007B119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2693D51B2CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693D51C2CD3FD3C007B119D /* Debug */,
+				2693D51D2CD3FD3C007B119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2693D51E2CD3FD3C007B119D /* Build configuration list for PBXNativeTarget "LucraPhotosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2693D51F2CD3FD3C007B119D /* Debug */,
+				2693D5202CD3FD3C007B119D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2693D5262CD3FE27007B119D /* XCRemoteSwiftPackageReference "Espresso" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mitchtreece/Espresso";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.7.0;
+			};
+		};
+		2693D52B2CD3FE4F007B119D /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.8.0;
+			};
+		};
+		2693D5322CD3FE6B007B119D /* XCRemoteSwiftPackageReference "Spider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mitchtreece/Spider";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+		2693D5352CD3FE95007B119D /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		2693D57B2CD4367F007B119D /* XCRemoteSwiftPackageReference "LazyPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gh123man/LazyPager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2693D5272CD3FE27007B119D /* Espresso */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D5262CD3FE27007B119D /* XCRemoteSwiftPackageReference "Espresso" */;
+			productName = Espresso;
+		};
+		2693D5292CD3FE27007B119D /* EspressoUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D5262CD3FE27007B119D /* XCRemoteSwiftPackageReference "Espresso" */;
+			productName = EspressoUI;
+		};
+		2693D52C2CD3FE4F007B119D /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D52B2CD3FE4F007B119D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		2693D52E2CD3FE4F007B119D /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D52B2CD3FE4F007B119D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		2693D5302CD3FE4F007B119D /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D52B2CD3FE4F007B119D /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		2693D5332CD3FE6B007B119D /* Spider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D5322CD3FE6B007B119D /* XCRemoteSwiftPackageReference "Spider" */;
+			productName = Spider;
+		};
+		2693D5362CD3FE95007B119D /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D5352CD3FE95007B119D /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		2693D57C2CD4367F007B119D /* LazyPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2693D57B2CD4367F007B119D /* XCRemoteSwiftPackageReference "LazyPager" */;
+			productName = LazyPager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2693D4EC2CD3FD3A007B119D /* Project object */;
+}
